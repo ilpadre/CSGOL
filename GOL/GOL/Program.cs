@@ -87,7 +87,7 @@ namespace GOL
                             new Cell(26, 25)
                         };
             gol.board = new GOLBoard(glider, 18, 18);
-            gol.RunContinuous();
+            gol.RunWithPrompt();
         }
     }
 }
